@@ -114,7 +114,21 @@ for(let index = 0; index < 5; index++)
 	document.getElementById(“     ”).appendChild(smileyImage);
 	document.getElementById(“     ”).innerHTML = “You inserted ” + exampleVariable1 + “ smiley faces and ” + exampleVariable2 + “ frowny faces!”;
 </script>
-  
+	}
+ 	function AdidasFashionFunction()
+	{
+	exampleVariable1 = parseFloat(document.getElementById("firstInputBox").value);
+    	exampleVariable2 = parseFloat(document.getElementById("secondInputBox").value);
+for(let index = 0; index < 5; index++)
+	{
+		exampleVariable1++;
+		var smileyImage = document.createElement(“img”);
+	smileyImage.src = “https://i.imgur.com/jctdkSS.png”;
+	document.getElementById(“     ”).appendChild(smileyImage);
+	document.getElementById(“     ”).innerHTML = “You inserted ” + exampleVariable1 + “ smiley faces and ” + exampleVariable2 + “ frowny faces!”;
+</script> 
+
+}
   
  
 <!--CSS webpage style/format settings.-->
@@ -178,7 +192,7 @@ for(let index = 0; index < 5; index++)
       
   <a href="#NikeAthlete" onclick="NikeCelebFunction();" class="w3-btn w3-grey">Nike Athletes</a>
   <a href="#NikeCelebrities" onclick="exampleFunction2();" class="w3-btn w3-grey">Nike Celebrities</a>
-  <a href="#finalpage" onclick="exampleFunction3();" class="w3-btn w3-grey">Adidas</a>
+  <a href="#AdidasFashion" onclick="AdidasFashionFunction();" class="w3-btn w3-grey">Adidas and Fashion Brands</a>
   <a href="#finalpage" onclick="exampleFunction4();" class="w3-btn w3-grey">Other Collaborations</a>
   <a href="#finalpage" onclick="exampleFunction5();" class="w3-btn w3-grey">Celebrity Shoe Comments</a>
     
@@ -201,6 +215,7 @@ for(let index = 0; index < 5; index++)
 		<!--A link that runs a function when clicked and takes the user to a new page.-->
 <a href=“#NikeCelebrities” class=" " onclick="NikeCelebFunction();">     </a>
 </div>  
+<---------------------------------------------------------------------------------------------------------->  
 
 <!--This is the NikeAthlete page.-->
 <div id="NikeAthlete" class="page">
@@ -219,7 +234,24 @@ for(let index = 0; index < 5; index++)
 </div>  
   
 <---------------------------------------------------------------------------------------------------------->  
-<!--LAST SUBPAGE-->
+<!--This is the Adidas Fashion page.-->
+<div id="AdidasFashion" class="page">
+	<!--Header.-->
+		<div id="AdidasFashion" class="w3-container w3-flat-carrot">
+			<h1>Adidas Fashion Page</h1>
+		</div>
+    		
+		<!--Main content of the page.-->
+<div id="AdidasFashion" class="w3-container">
+<p id="AdidasFashion">  The Gucci Spring/Summer 2023 marks the arrival of a brand-new take on one of adidas’ most iconic runners – the ZX8000. Reimagined through Gucci’s contemporary lens, the signature silhouette is crafted in the House’s bright palette of suedes.
+Alongside the arrival of the archival look is the return of the instantly recognizable adidas x Gucci Gazelle, which blends adidas’ Three Stripes with the GG monogram. The latest footwear offering from the adidas x Gucci collection also includes two slip-on silhouettes – the Adilette and the Sideline – which both feature playful co-branded details and expressive color palettes.    </p>
+</div>
+  		
+		<!--A link that runs a function when clicked and takes the user to a new page.-->
+<a href=“#AdidasFashion” class=" " onclick="AdidasFashionFunction();">     </a>
+</div>  
+<---------------------------------------------------------------------------------------------------------->  
+	<!--LAST SUBPAGE-->
 <div id="finalpage" class="page">
 	<div id="finalheader" class="w3-container w3-flat-carrot">
 		<h1>FINAL PAGE TITLE GOES HERE</h1>
