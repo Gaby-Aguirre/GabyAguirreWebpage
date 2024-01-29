@@ -61,16 +61,46 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 		alert("You just ran a multiplication function!");
 		console.log("Multiplication function was run.");
 	}
-	
-	function exampleFunction3()
+function CelebCommentsFunction()
 	{
-		exampleVariable1 = parseFloat(document.getElementById("firstInputBox").value);
-    		exampleVariable2 = parseFloat(document.getElementById("secondInputBox").value);
-		
-		exampleVariable3 = exampleVariable1 ** exampleVariable2;
-		
-		alert("You just ran an exponent function!");
-		console.log("Exponent function was run.");
+	exampleVariable1 = parseFloat(document.getElementById("firstInputBox").value);
+    	exampleVariable2 = parseFloat(document.getElementById("secondInputBox").value);
+for(let index = 0; index < 5; index++)
+	{
+		exampleVariable1++;
+		var smileyImage = document.createElement(“img”);
+	smileyImage.src = “https://i.imgur.com/jctdkSS.png”;
+	document.getElementById(“     ”).appendChild(smileyImage);
+	document.getElementById(“     ”).innerHTML = “You inserted ” + exampleVariable1 + “ smiley faces and ” + exampleVariable2 + “ frowny faces!”;
+
+
+	}
+		alert("Headed to Celebrity Comments Page");
+		console.log("CelebrityCommentFunction was run.");
+	}
+	
+	}
+	
+	
+CelebComments
+function AdidasCelebFunction()
+	{
+	exampleVariable1 = parseFloat(document.getElementById("firstInputBox").value);
+    	exampleVariable2 = parseFloat(document.getElementById("secondInputBox").value);
+for(let index = 0; index < 5; index++)
+	{
+		exampleVariable1++;
+		var smileyImage = document.createElement(“img”);
+	smileyImage.src = “https://i.imgur.com/jctdkSS.png”;
+	document.getElementById(“     ”).appendChild(smileyImage);
+	document.getElementById(“     ”).innerHTML = “You inserted ” + exampleVariable1 + “ smiley faces and ” + exampleVariable2 + “ frowny faces!”;
+
+
+	}
+		alert("Headed to Adidas Celebrity Collabs");
+		console.log("AdidasCelebFunction was run.");
+	}
+	
 	}
 	
 	function exampleResultsFunction()
@@ -102,6 +132,7 @@ for(let index = 0; index < 5; index++)
 		alert("Headed to Nike Celebrity Collabs");
 		console.log("NikeCelebFunction was run.");
 	}
+	
 	function NikeAthleteFunction()
 	{
 	exampleVariable1 = parseFloat(document.getElementById("firstInputBox").value);
@@ -115,19 +146,8 @@ for(let index = 0; index < 5; index++)
 	document.getElementById(“     ”).innerHTML = “You inserted ” + exampleVariable1 + “ smiley faces and ” + exampleVariable2 + “ frowny faces!”;
 </script>
 	}
- 	function AdidasFashionFunction()
-	{
-	exampleVariable1 = parseFloat(document.getElementById("firstInputBox").value);
-    	exampleVariable2 = parseFloat(document.getElementById("secondInputBox").value);
-for(let index = 0; index < 5; index++)
-	{
-		exampleVariable1++;
-		var smileyImage = document.createElement(“img”);
-	smileyImage.src = “https://i.imgur.com/jctdkSS.png”;
-	document.getElementById(“     ”).appendChild(smileyImage);
-	document.getElementById(“     ”).innerHTML = “You inserted ” + exampleVariable1 + “ smiley faces and ” + exampleVariable2 + “ frowny faces!”;
-</script> 
-
+ 
+AdidasCelebFunction
 }
   
  
@@ -192,9 +212,9 @@ for(let index = 0; index < 5; index++)
       
   <a href="#NikeAthlete" onclick="NikeCelebFunction();" class="w3-btn w3-grey">Nike Athletes</a>
   <a href="#NikeCelebrities" onclick="exampleFunction2();" class="w3-btn w3-grey">Nike Celebrities</a>
-  <a href="#AdidasFashion" onclick="AdidasFashionFunction();" class="w3-btn w3-grey">Adidas and Fashion Brands</a>
-  <a href="#finalpage" onclick="exampleFunction4();" class="w3-btn w3-grey">Other Collaborations</a>
-  <a href="#finalpage" onclick="exampleFunction5();" class="w3-btn w3-grey">Celebrity Shoe Comments</a>
+  <a href="#AdidasFashion" onclick="AdidasFashionFunction();" class="w3-btn w3-grey">Adidas Fashion</a>
+  <a href="#AdidasCelebrities" onclick="AdidasCelebFunction();" class="w3-btn w3-grey">Adidas Celebrities</a>
+  <a href="#CelebComments" onclick="CelebCommentsFunction();" class="w3-btn w3-grey">Celebrity Favorites</a>
     
   </center>
 </div>  
@@ -250,6 +270,39 @@ Alongside the arrival of the archival look is the return of the instantly recogn
 		<!--A link that runs a function when clicked and takes the user to a new page.-->
 <a href=“#AdidasFashion” class=" " onclick="AdidasFashionFunction();">     </a>
 </div>  
+<---------------------------------------------------------------------------------------------------------->
+	<!--This is the AdidasCelebrities page.-->
+<div id="AdidasCelebrities" class="page">
+	<!--Header.-->
+		<div id="AdidasCelebrities" class="w3-container w3-flat-carrot">
+			<h1>Adidas Celebrities Page</h1>
+		</div>
+    		
+		<!--Main content of the page.-->
+<div id="AdidasCelebrities" class="w3-container">
+<p id="AdidasCelebrities">  The most interesting Adidas Collaboration is the Bad Bunny x adidas Forum Buckle Low Orange Sample.  </p>
+</div>
+  		
+		<!--A link that runs a function when clicked and takes the user to a new page.-->
+<a href=“#AdidasCelebrities” class=" " onclick="AdidasCelebFunction();">     </a>
+</div>  
+<---------------------------------------------------------------------------------------------------------->
+<!--This is the CelebComments page.-->
+<div id="CelebComments" class="page">
+	<!--Header.-->
+		<div id="CelebComments" class="w3-container w3-flat-carrot">
+			<h1>Celebrity Comments Page</h1>
+		</div>
+    		
+		<!--Main content of the page.-->
+<div id="CelebComments" class="w3-container">
+<p id="CelebComments">  Kim Kardashian wears Air Max 95 sneakers </p>
+</div>
+  		
+		<!--A link that runs a function when clicked and takes the user to a new page.-->
+<a href=“#CelebComments” class=" " onclick="CelebCommentsFunction();">     </a>
+</div>  
+  
 <---------------------------------------------------------------------------------------------------------->  
 	<!--LAST SUBPAGE-->
 <div id="finalpage" class="page">
