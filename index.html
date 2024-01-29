@@ -85,7 +85,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 		exampleVariable2 = 0;
 		exampleVariable3 = 0;
 	}
-	function functionNameHere()
+	function NikeCelebFunction()
 	{
 	exampleVariable1 = parseFloat(document.getElementById("firstInputBox").value);
     	exampleVariable2 = parseFloat(document.getElementById("secondInputBox").value);
@@ -101,7 +101,17 @@ for(let index = 0; index < 5; index++)
 	}
 
 	}
-
+	function functionNameHere()
+	{
+	exampleVariable1 = parseFloat(document.getElementById("firstInputBox").value);
+    	exampleVariable2 = parseFloat(document.getElementById("secondInputBox").value);
+for(let index = 0; index < 5; index++)
+	{
+		exampleVariable1++;
+		var smileyImage = document.createElement(“img”);
+	smileyImage.src = “https://i.imgur.com/jctdkSS.png”;
+	document.getElementById(“     ”).appendChild(smileyImage);
+	document.getElementById(“     ”).innerHTML = “You inserted ” + exampleVariable1 + “ smiley faces and ” + exampleVariable2 + “ frowny faces!”;
 </script>
   
   
@@ -165,7 +175,7 @@ for(let index = 0; index < 5; index++)
   <label for="Air Jordan 1 High OG (Lost and Found)">Air Jordan 1 High OG (Lost and Found)</label><br>
  	</form>
       
-  <a href="#NikeAthlete" onclick="functionNameHere();" class="w3-btn w3-grey">Nike Athletes</a>
+  <a href="#NikeAthlete" onclick="NikeCelebFunction();" class="w3-btn w3-grey">Nike Athletes</a>
   <a href="#NikeCelebrities" onclick="exampleFunction2();" class="w3-btn w3-grey">Nike Celebrities</a>
   <a href="#finalpage" onclick="exampleFunction3();" class="w3-btn w3-grey">Adidas</a>
   <a href="#finalpage" onclick="exampleFunction4();" class="w3-btn w3-grey">Other Collaborations</a>
